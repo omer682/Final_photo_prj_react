@@ -1,0 +1,222 @@
+.photographers-div-container{
+
+    text-align:center; 
+    display:flex;
+    justify-content:center;
+ }
+ .photographers-cover-img{
+     background-image: url('https://images.pexels.com/photos/569098/pexels-photo-569098.jpeg?auto=compress&cs=tinysrgb&w=1260&h=850&dpr=1');
+     height:20vh;
+     width:99.5%;
+     background-size: cover; 
+     background-position: center;
+     background-repeat: no-repeat;
+     border-radius: 1.5rem;
+ }
+ 
+ .photographers-cover-img p{
+    color:rgb(207, 212, 220);
+     font-weight: 900;
+     font-size: 2.5rem;     
+ }
+
+.side-bar{
+    border: solid black 0.5px;
+     width:15%;
+     height:50vh;
+    margin: 2% 2% 0px 0px;
+    border-radius: 0.5rem;
+}
+
+
+.user-card{
+    background-image: url(https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg?auto=compress&cs=tinysrgb&w=1600);
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 35vh;
+    width: 48vh;
+}
+@media (max-width:1000px) {
+    .user-card{
+        width: 80%;
+        height: 80%;
+    }
+    
+}
+
+
+.modal-error-message{
+    text-align: center;
+    color: red;
+    display: block;
+    background-color: pink;
+}
+
+.modal-error-message span{
+
+    background-color: pink;
+    
+}
+
+.profile-name{
+  font-size: 5vh;
+  color: white;
+  
+
+}
+
+.profile-image{
+    width: 20vh;
+    height:17vh;
+    
+}
+
+.profile-bg-image{
+    /* background-image: url(https://images.pexels.com/photos/2117938/pexels-photo-2117938.jpeg?auto=compress&cs=tinysrgb&w=1600); */
+    /* background-image: url(https://images.pexels.com/photos/16105526/pexels-photo-16105526/free-photo-of-people-walking-with-israel-flag-on-shoulders.jpeg?auto=compress&cs=tinysrgb&w=1600); */
+    background-size: cover;
+    background-attachment: local; 
+    background-position: 100%;
+    border: solid black 3px;
+    border-radius: 0.5rem;
+    
+    height: 75vh;
+}   
+
+.profile-display-user {
+    width:45% ;
+    height: 40%;
+    background-color:rgb(0, 0, 0, 0.65)
+}
+
+.profile-first-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.profile-first-row div{
+    min-width: 33%;
+    max-height: 30vh;
+    
+}
+
+.profile-bio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.rate-user-div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 17%;
+    background-color: rgba(47, 79, 79, 0.75);
+    border-radius: 3rem;
+    padding: 1%;    
+}
+
+
+@media (max-height: 850px),(max-width:950px) {
+.profile-display-user {
+        width:100% ;
+        height: 100%;
+        font-size: 2vh;
+    }
+.rate-user-div{
+    width: 60%       
+
+}
+}
+.albums-title{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(51, 70, 167, 0.75);
+    height: 10vh;
+    align-items: center;
+    font-size: 7vh;
+    border-radius: 3rem;
+}
+
+.albums{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+
+.album-container{
+    background-color: aliceblue;
+    width: 42vh;
+    height: 36vh;
+    border: solid black 2px;
+    margin: 10px;
+    text-align: center;
+    font-size: 2.5vh;
+    color: black;
+    
+}
+.add-album-container{
+    color:rgb(22, 242, 198)
+}
+
+.album-container:hover{
+    color: rgb(24, 27, 203);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.album-title{
+   display:flex; 
+   flex-direction : row; 
+   height:19%;
+   overflow:hidden;
+   background-color:rgba(47, 79, 79, 0.75);
+   justify-content: center;
+}
+
+.album-title div{
+    margin-left: auto;
+}
+.album-image{
+    width: 100%;
+    height: 80.5%;
+}
+
+
+.images{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.image-container{
+    background-color : aliceblue;
+    width: 30vh;
+    height: 25vh;
+    border: solid black 2px;
+    margin: 2px;
+    text-align: center;
+    font-size: 2.5vh;
+    color: black;
+    
+}
+
+.album-container:hover{
+    color: rgb(24, 27, 203);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+}
+.image-sizing{
+    width: 100%;
+    height: 100%;
+}

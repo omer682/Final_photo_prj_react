@@ -1,0 +1,110 @@
+.tours-div-container{
+
+   text-align:center; 
+   display:flex;
+   justify-content:center;
+}
+.tours-cover-img{
+    background-image: url('https://images.pexels.com/photos/4128029/pexels-photo-4128029.jpeg?auto=compress&cs=tinysrgb&w=1600');
+    height:20vh;
+    width:99.5%;
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    border-radius: 1.5rem;
+}
+
+.tours-cover-img p{
+    color:rgb(155, 124, 73);
+    font-weight: 900;
+    font-size: 2.5rem;
+    
+}
+
+.test{
+    color: red;
+}
+
+.tours-form {
+    margin: 2vh;
+    width: 400px;
+}
+
+.tour-card{
+    padding: 10px;
+    margin: 20px 20px 40px 20px;
+    font-family: David Libre;
+
+
+}
+
+.shadow-box {
+    box-shadow: 10px 10px 20px rgba(235, 250, 250, 0.7);
+    transform: translate(-5px, -5px)
+}
+
+.tour-body{
+    font-size:1.15rem;
+    white-space:pre-wrap;
+    display:flex;
+    justify-content:space-around;
+}
+
+.tour-text{
+    font-size:1.5rem;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.list-group-width{
+    width: 50%;
+}
+
+.inputs-description{
+    color: cornflowerblue;
+    font-size: 0.85rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* .custom-datepicker{
+    width: 200px;
+}
+
+.react-datepicker-popper {
+    z-index: 9999;
+  }
+.react-datepicker__calendar-container {
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .react-datepicker__header {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .react-datepicker__day-names {
+    background-color: #f0f0f0;
+  }
+  
+  .react-datepicker__day {
+    &:hover {
+      background-color: #007bff;
+      color: white;
+    }
+  } */
+@media(max-width:800px) {
+    .tours-form{
+        width: 1000px;
+        margin: 0.5vh;
+        
+    }
+    .tour-body{
+        display: block;
+    }
+    
+    .list-group-width{
+        width: 100%;
+    }
+    
+}

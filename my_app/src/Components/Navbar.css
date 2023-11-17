@@ -1,0 +1,61 @@
+@media only screen and (max-width: 500px) {
+    #navRes {
+      display: none;
+    }
+    #itemNav {
+      display: none;
+    }
+  }
+ 
+  /* #navFix {
+    position: fixed;
+   z-index: 20;
+   width: 100%;
+  
+  } */
+  @media(min-width:801px){
+    #hamburger{
+      display: none;
+    }
+  }
+  @media (max-width:800px) {
+    #resumeBtn{
+      display: none;
+    }
+  }
+  
+
+
+
+.btnDeco::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -12px; 
+  width: 100%;
+  height: 4px; 
+  background-image: linear-gradient(90deg, #3ca2a2, #0d162f); 
+  transform: scaleX(0);
+  transition: transform 0.4s ease;
+  border-radius: 2px;
+  
+}
+
+.btnDeco:hover {
+  color: rgb(162, 221, 220);
+}
+
+.btnDeco:hover::before {
+  transform: scaleX(1);
+  transform-origin: right;
+  
+}
+
+
+.btnDeco.active::before {
+  background-image: linear-gradient(90deg, #ffd900, #f85827); /* Blue color */
+  transform: scaleX(1); 
+  border-radius: 4px;
+}
+
+

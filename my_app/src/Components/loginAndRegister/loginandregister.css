@@ -1,0 +1,31 @@
+
+
+.login-errors{
+  color: #ff0000b3; /* Dark red text */
+  background-color: rgba(225, 154, 154, 0.3);
+  padding: 4px;
+  border-radius: 5px;
+  margin-bottom: 2px;
+  font-size: 14px;
+  
+  text-align: center;
+  
+}
+
+.container-width{
+  width: 25% !important;
+}
+
+@media(max-width:1312px) {
+  .container-width{
+    width: 50% !important;
+  }
+  
+}
+
+@media (max-width :728px) {
+  .container-width{
+    width: 100% !important;
+  }
+  
+}
